@@ -6,6 +6,11 @@ import { withKnobs, select, boolean } from '@storybook/addon-knobs';
 
 export default {
   title: 'Button',
+
+  parameters: {
+    component: PrimaryButton,
+    componentSubtitle: 'Button for CTA',
+  },
 };
 
 export const primaryButton = () => (

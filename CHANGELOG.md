@@ -1,9 +1,6 @@
-# v0.1.1 (Thu Nov 14 2019)
+# v0.1.0 (Tue Sep 03 2019)
 
-#### ⚠️  Pushed to master
-
-- build storybook  (devon.chau@clui.com)
+- Created first version of the design system, with `Avatar`, `Badge`, `Button`, `Icon` and `Link` components.
 
 #### Authors: 1
-
-- devon.chau (devon.chau@clui.com)
+- Devon Chau ([@devonpis](https://github.com/devonpis))

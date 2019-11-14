@@ -68,7 +68,8 @@
     "build-package": "cross-env BABEL_ENV=production babel src -d dist",
     "test": "node scripts/test.js",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "release": "auto shipit"
   },
   "eslintConfig": {
     "extends": "react-app"

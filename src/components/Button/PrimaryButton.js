@@ -24,4 +24,8 @@ export default withStyles(theme => ({
       '&:focus': {
       },
     },
+    sizeLarge: {
+      padding: "12px 22px",
+      fontSize: 16
+    }
   }))(PrimaryButton);

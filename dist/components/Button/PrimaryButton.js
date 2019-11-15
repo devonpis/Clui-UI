@@ -26,6 +26,10 @@ export default withStyles(function (theme) {
         boxShadow: 'none'
       },
       '&:focus': {}
+    },
+    sizeLarge: {
+      padding: "12px 22px",
+      fontSize: 16
     }
   };
 })(PrimaryButton);

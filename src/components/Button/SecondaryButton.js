@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
 
-const secondaryButton = (props) => (
+const SecondaryButton = (props) => (
     <Button {...props} disableRipple={true} variant="outlined" color="primary">{props.children}</Button>
 );
 
@@ -22,4 +22,4 @@ export default withStyles(theme => ({
       '&:focus': {
       },
     },
-  }))(secondaryButton);
+  }))(SecondaryButton);

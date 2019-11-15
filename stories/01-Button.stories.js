@@ -19,7 +19,7 @@ export const primaryButton = () => (
     size={select('Size', ['medium', 'small', 'large'])}
     disabled={boolean('Disabled')}
   >
-    Primary button
+    Primary buttonn
   </PrimaryButton>
 );
 

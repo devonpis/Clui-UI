@@ -6,7 +6,7 @@ import { withStyles } from '@material-ui/core/styles';
 - santium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 **/
 
-const primaryButton = (props) => (
+const PrimaryButton = (props) => (
     <Button {...props} disableRipple={true} variant="contained" color="primary">{props.children}</Button>
 );
 
@@ -24,4 +24,4 @@ export default withStyles(theme => ({
       '&:focus': {
       },
     },
-  }))(primaryButton);
+  }))(PrimaryButton);

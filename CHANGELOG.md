@@ -1,3 +1,15 @@
+# v0.1.5 (Fri Nov 15 2019)
+
+#### ⚠️  Pushed to master
+
+- update dist  (devon.chau@clui.com)
+
+#### Authors: 1
+
+- devon.chau (devon.chau@clui.com)
+
+---
+
 # v0.1.4 (Fri Nov 15 2019)
 
 

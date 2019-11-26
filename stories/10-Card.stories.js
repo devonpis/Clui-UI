@@ -1,8 +1,5 @@
 import React from 'react';
-import { action } from '@storybook/addon-actions';
-import Card from '../src/components/Card/Card';
-import CardContent from '../src/components/Card/CardContent';
-import Typography from '../src/components/Typography/Typography';
+import { Card, CardContent, Typography } from '../src/index';
 
 export default {
   title: 'Card',

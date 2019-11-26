@@ -15,7 +15,7 @@ var globalTheme = createMuiTheme({
     button: {
       fontSize: 13,
       textTransform: "none",
-      fontWeight: "500"
+      fontSizeLarge: 18
     }
   }
 });

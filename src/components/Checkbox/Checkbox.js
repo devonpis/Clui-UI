@@ -1,7 +1,5 @@
 import React from 'react';
 import Checkbox from '@material-ui/core/Checkbox';
-import { ThemeProvider } from '@material-ui/core/styles';
-import globalTheme from '../../globalTheme';
 
 /**
 https://material-ui.com/components/checkboxes/

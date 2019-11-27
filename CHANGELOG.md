@@ -1,3 +1,16 @@
+# v0.1.9 (Wed Nov 27 2019)
+
+#### ⚠️  Pushed to master
+
+- add globaltheme  (devon.chau@clui.com)
+- edit readme  (devon.chau@clui.com)
+
+#### Authors: 1
+
+- devon.chau (devon.chau@clui.com)
+
+---
+
 # v0.1.8 (Wed Nov 27 2019)
 
 #### ⚠️  Pushed to master

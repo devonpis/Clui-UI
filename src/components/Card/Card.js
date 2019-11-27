@@ -1,7 +1,5 @@
 import React from 'react';
 import Card from '@material-ui/core/Card';
-import { ThemeProvider } from '@material-ui/core/styles';
-import globalTheme from '../../globalTheme';
 
 /**
 https://material-ui.com/components/buttons/
@@ -11,9 +9,7 @@ They should be easy to scan for relevant and actionable information. Elements, l
 **/
 
 const card = (props) => (
-    <ThemeProvider theme={globalTheme}>
-        <Card {...props}>{props.children}</Card>
-    </ThemeProvider>
+    <Card {...props}>{props.children}</Card>
 );
 
 export default card;

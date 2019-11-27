@@ -5,9 +5,9 @@ import { ThemeProvider } from '@material-ui/core/styles';
 
 addDecorator(story => (
     <>
-        {/* <ThemeProvider theme={globalTheme}> */}
+        <ThemeProvider theme={globalTheme}>
             {story()}
-        {/* </ThemeProvider> */}
+        </ThemeProvider>
     </>
   ));
 

@@ -1,8 +1,6 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
-import { ThemeProvider } from '@material-ui/core/styles';
-import globalTheme from '../../globalTheme';
 /**
 https://material-ui.com/components/buttons/
 
@@ -16,9 +14,7 @@ Buttons communicate actions that users can take. They are typically placed throu
 **/
 
 export var baseButton = function baseButton(props) {
-  return React.createElement(ThemeProvider, {
-    theme: globalTheme
-  }, React.createElement(Button, props, props.children));
+  return React.createElement(Button, props, props.children);
 };
 baseButton.defaultProps = {
   variant: 'text',

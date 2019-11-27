@@ -1,7 +1,5 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-import { ThemeProvider } from '@material-ui/core/styles';
-import globalTheme from '../../globalTheme';
 
 /**
 https://material-ui.com/components/grid/
@@ -10,9 +8,7 @@ The grid creates visual consistency between layouts while allowing flexibility a
 **/
 
 const grid = (props) => (
-    <ThemeProvider theme={globalTheme}>
-        <Grid {...props}>{props.children}</Grid>
-    </ThemeProvider>
+    <Grid {...props}>{props.children}</Grid>
 );
 
 export default grid;

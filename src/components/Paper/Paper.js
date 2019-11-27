@@ -1,7 +1,5 @@
 import React from 'react';
 import Paper from '@material-ui/core/Paper';
-import { ThemeProvider } from '@material-ui/core/styles';
-import globalTheme from '../../globalTheme';
 
 /**
 https://material-ui.com/components/paper/
@@ -10,9 +8,7 @@ The background of an application resembles the flat, opaque texture of a sheet o
 **/
 
 const paper = (props) => (
-    <ThemeProvider theme={globalTheme}>
-        <Paper {...props}>{props.children}</Paper>
-    </ThemeProvider>
+    <Paper {...props}>{props.children}</Paper>
 );
 
 export default paper;

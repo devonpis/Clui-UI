@@ -11,9 +11,7 @@ If you have multiple options appearing in a list, you can preserve space by usin
 **/
 
 var checkbox = function checkbox(props) {
-  return React.createElement(ThemeProvider, {
-    theme: globalTheme
-  }, React.createElement(Checkbox, props, props.children));
+  return React.createElement(Checkbox, props, props.children);
 };
 
 export default checkbox;

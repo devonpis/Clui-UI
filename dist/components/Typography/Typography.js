@@ -1,7 +1,5 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
-import { ThemeProvider } from '@material-ui/core/styles';
-import globalTheme from '../../globalTheme';
 /**
 https://material-ui.com/components/typography/
 
@@ -9,9 +7,7 @@ Too many type sizes and styles at once can spoil any layout. A typographic scale
 **/
 
 var typography = function typography(props) {
-  return React.createElement(ThemeProvider, {
-    theme: globalTheme
-  }, React.createElement(Typography, props, props.children));
+  return React.createElement(Typography, props, props.children);
 };
 
 typography.defaultProps = {

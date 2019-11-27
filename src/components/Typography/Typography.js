@@ -1,8 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Typography from '@material-ui/core/Typography';
-import { ThemeProvider } from '@material-ui/core/styles';
-import globalTheme from '../../globalTheme';
 
 /**
 https://material-ui.com/components/typography/
@@ -11,9 +9,7 @@ Too many type sizes and styles at once can spoil any layout. A typographic scale
 **/
 
 const typography = (props) => (
-    <ThemeProvider theme={globalTheme}>
-        <Typography {...props}>{props.children}</Typography>
-    </ThemeProvider>
+    <Typography {...props}>{props.children}</Typography>
 );
 
 typography.propTypes = {

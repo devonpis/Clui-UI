@@ -12,9 +12,7 @@ If you have multiple options appearing in a list, you can preserve space by usin
 **/
 
 const checkbox = (props) => (
-    <ThemeProvider theme={globalTheme}>
-        <Checkbox {...props}>{props.children}</Checkbox>
-    </ThemeProvider>
+    <Checkbox {...props}>{props.children}</Checkbox>
 );
 
 export default checkbox;

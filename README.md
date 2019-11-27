@@ -2,19 +2,19 @@
 
 npx create-react-app my-app
 
-===========
+## Building
 
 yarn storybook
 yarn build-storybook
 yarn build-package
 
-===========
+## Tokens
 
 commit and push
 https://github.com/settings/tokens
 https://www.npmjs.com/settings/devonpis/tokens
 
-===========
+## Release process
 
 yarn auto changelog
 git add CHANGELOG.md
@@ -25,7 +25,7 @@ npm publish
 git push --follow-tags origin master
 yarn auto release
 
-===========
+## Including Clui-ui
 
 npm install clui-ui@latest --save
 yarn upgrade clui-ui

@@ -1,3 +1,18 @@
+# v0.1.8 (Wed Nov 27 2019)
+
+#### ⚠️  Pushed to master
+
+- add more components  (devon.chau@clui.com)
+- edit readme  (devonpis@gmail.com)
+- modify readme  (devonpis@gmail.com)
+
+#### Authors: 2
+
+- devon-PC\devon (devonpis@gmail.com)
+- devon.chau (devon.chau@clui.com)
+
+---
+
 # v0.1.7 (Tue Nov 26 2019)
 
 #### ⚠️  Pushed to master

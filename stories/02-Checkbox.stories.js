@@ -1,9 +1,12 @@
 import React from 'react';
-import { action } from '@storybook/addon-actions';
 import Checkbox from '../src/components/Checkbox/Checkbox';
 
 export default {
   title: 'Checkbox',
+  parameters: {
+    component: Checkbox,
+    componentSubtitle: 'Checkboxes allow the user to select one or more items from a set.',
+  },
 };
 
-export const basic = () => <Checkbox></Checkbox>;
+export const base = () => <Checkbox></Checkbox>;

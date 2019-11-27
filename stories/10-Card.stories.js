@@ -3,6 +3,10 @@ import { Card, CardContent, Typography } from '../src/index';
 
 export default {
   title: 'Card',
+  parameters: {
+    component: Card,
+    componentSubtitle: 'Cards contain content and actions about a single subject.',
+  },
 };
 
 export const card = () => (

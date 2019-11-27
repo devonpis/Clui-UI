@@ -7,11 +7,11 @@ export default {
   title: 'Button',
   parameters: {
     component: BaseButton,
-    componentSubtitle: 'Button subtitle',
+    componentSubtitle: 'Buttons allow users to take actions, and make choices, with a single tap.',
   },
 };
 
-export const baseButton = () => (
+export const base = () => (
   <Button 
     onClick={action('clicked')}
     size={select('Size', ['medium', 'small', 'large'])}
@@ -23,7 +23,7 @@ export const baseButton = () => (
   </Button>
 );
 
-baseButton.story = {
+base.story = {
   decorators: [withKnobs],
 };
 

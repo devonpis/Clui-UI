@@ -2,13 +2,25 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
+import { ThemeProvider } from '@material-ui/core/styles';
+import globalTheme from '../../globalTheme';
 
 /**
-With `Button` santium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+https://material-ui.com/components/buttons/
+
+Buttons communicate actions that users can take. They are typically placed throughout your UI, in places like:
+
+- Dialogs
+- Modal windows
+- Forms
+- Cards
+- Toolbars
 **/
 
 export const baseButton = (props) => (
+  <ThemeProvider theme={globalTheme}>
     <Button {...props}>{props.children}</Button>
+  </ThemeProvider>
 );
 
 baseButton.propTypes = {

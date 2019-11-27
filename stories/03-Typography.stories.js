@@ -5,7 +5,7 @@ export default {
   title: 'Typography',
   parameters: {
     component: Typography,
-    componentSubtitle: 'Typography subtitle',
+    componentSubtitle: 'Use typography to present your design and content as clearly and efficiently as possible.',
   },
 };
 

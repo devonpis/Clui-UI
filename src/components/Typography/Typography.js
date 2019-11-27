@@ -1,13 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Typography from '@material-ui/core/Typography';
+import { ThemeProvider } from '@material-ui/core/styles';
+import globalTheme from '../../globalTheme';
 
 /**
-With `Typography` santium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+https://material-ui.com/components/typography/
+
+Too many type sizes and styles at once can spoil any layout. A typographic scale has a limited set of type sizes that work well together along with the layout grid.
 **/
 
 const typography = (props) => (
-    <Typography {...props}>{props.children}</Typography>
+    <ThemeProvider theme={globalTheme}>
+        <Typography {...props}>{props.children}</Typography>
+    </ThemeProvider>
 );
 
 typography.propTypes = {

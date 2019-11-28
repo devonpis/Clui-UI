@@ -1,3 +1,17 @@
+# v0.1.11 (Thu Nov 28 2019)
+
+#### ⚠️  Pushed to master
+
+- fix build error  (devonpis@gmail.com)
+- update storybook  (devon.chau@clui.com)
+
+#### Authors: 2
+
+- devon-PC\devon (devonpis@gmail.com)
+- devon.chau (devon.chau@clui.com)
+
+---
+
 # v0.1.10 (Thu Nov 28 2019)
 
 #### ⚠️  Pushed to master

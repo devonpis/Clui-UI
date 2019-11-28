@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, ToolBar, Typography, Button, IconButton } from '../src/index';
+import { AppBar, Toolbar, Typography, Button, IconButton } from '../src/index';
 import { makeStyles } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
 
@@ -27,7 +27,7 @@ export const appBar = () => {
     const classes = useStyles();
     return (    
         <AppBar position="static">
-            <ToolBar>
+            <Toolbar>
                 <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
                 <MenuIcon />
                 </IconButton>
@@ -35,7 +35,7 @@ export const appBar = () => {
                 This is an App Bar
                 </Typography>
                 <Button color="inherit">Login</Button>
-            </ToolBar>
+            </Toolbar>
         </AppBar>
     );
 }

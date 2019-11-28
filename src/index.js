@@ -12,7 +12,7 @@ export {default as AppBar} from './components/AppBar/AppBar';
 export {default as Dialog} from './components/Dialog/Dialog';
 
 export {default as IconButton} from '@material-ui/core/IconButton';
-export {default as ToolBar} from '@material-ui/core/ToolBar';
+export {default as Toolbar} from '@material-ui/core/Toolbar';
 export {default as CardContent} from '@material-ui/core/CardContent';
 export {default as DialogActions} from '@material-ui/core/DialogActions';
 export {default as DialogContent} from '@material-ui/core/DialogContent';

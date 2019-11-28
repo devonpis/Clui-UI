@@ -1,3 +1,16 @@
+# v0.1.10 (Thu Nov 28 2019)
+
+#### ⚠️  Pushed to master
+
+- add components: dialog, iconButton  (devon.chau@clui.com)
+- fix linting  (devon.chau@clui.com)
+
+#### Authors: 1
+
+- devon.chau (devon.chau@clui.com)
+
+---
+
 # v0.1.9 (Wed Nov 27 2019)
 
 #### ⚠️  Pushed to master
